@@ -25,17 +25,17 @@ The data presented was delivered in such a way that most features required some 
 #### Visualization 1: [Milage and Price]
 This chart shows us the comparisson of the cars Milage vs Price. It shows us that the Milage does have a negative correlation with the price that will be usefull for the models.
 
-![Milage Vs Price](Images/milage.png)
+![Milage Vs Price](Images/Milage v Price.png)
 
 #### Visualization 2: [Transmission Type Affect on Price]
 This chart shows a few trends with the tranmission type affecting price. In general Automatic transmissions seem to have a higher average price. With the speed also affecting the price in various ways.
 
-![Transmission Vs Price](Images/transmission.png)
+![Transmission Vs Price](Images/Transmission v Price.png)
 
 #### Visualization 3: [Box Plot for Ext Color Pricing]
 This last visualization is a box plot that shows the spread of pricing for each of the Ext Color options.
 
-![Ext Color Avg Price](Images/ext.png)
+![Ext Color Avg Price](Images/Avg Price by Ext Color.png)
 
 ## Model Performance
 
