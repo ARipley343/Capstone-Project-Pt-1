@@ -171,6 +171,6 @@ elif page == "Prediction Models":
 
     if "Overall Score Comparrison" in model_number:
         st.subheader("Comparing the Scores of every model")
-        st.Image('images/scores.png')
+        st.image('Images/scores.png')
 
         
