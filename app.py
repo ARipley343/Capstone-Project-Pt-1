@@ -8,8 +8,8 @@ st.set_page_config(page_title="Used Car Sales Data Prediction Models", page_icon
 
 page = st.sidebar.selectbox("Select a Page", ["Home", "Data Overview", "Exploratory Data Analysis", "Prediction Models"])
 
-df = pd.read_csv('data\df_cleaned.csv')
-df_dummy = pd.read_csv('data\df_dummy.csv')
+df = pd.read_csv('Data\df_cleaned.csv')
+df_dummy = pd.read_csv('Data\df_dummy.csv')
 
 
 if page == "Home":
@@ -20,7 +20,7 @@ if page == "Home":
 
             Use the sidebar to navigate through the sections!
             """)
-    st.image('images/cars.jpg')
+    st.image('Images/cars.jpg')
 
 elif page == 'Data Overview':
     st.title("🔢 Data Overview")
@@ -37,7 +37,7 @@ elif page == 'Data Overview':
 
     if st.checkbox("Data Dictionary"):
         st.write("An explination of every feature in the dataset")
-        st.image('images/dictionary.png')
+        st.image('Images/dictionary.png')
 
     if st.checkbox("Average of each numerical feature"):
         num_cols = df.select_dtypes(include=['number']).columns.tolist()
@@ -171,6 +171,6 @@ elif page == "Prediction Models":
 
     if "Overall Score Comparrison" in model_number:
         st.subheader("Comparing the Scores of every model")
-        st.image('images/scores.png')
+        st.Image('images/scores.png')
 
         
