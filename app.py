@@ -8,8 +8,8 @@ st.set_page_config(page_title="Used Car Sales Data Prediction Models", page_icon
 
 page = st.sidebar.selectbox("Select a Page", ["Home", "Data Overview", "Exploratory Data Analysis", "Prediction Models"])
 
-df = pd.read_csv('Data\df_cleaned.csv')
-df_dummy = pd.read_csv('Data\df_dummy.csv')
+df = pd.read_csv('Data/df_cleaned.csv')
+df_dummy = pd.read_csv('Data/df_dummy.csv')
 
 
 if page == "Home":
